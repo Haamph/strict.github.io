@@ -1,0 +1,151 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px) { 
+  
+  /* navbar part css start */
+
+  .navbar-brand {
+    font-size: 25px;
+    padding: 25px 10px;
+  }
+  .navbar-nav {
+    text-align: right;
+  }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 19px;
+  }
+
+  /* navbar part css end */
+
+  /* banner part css start */
+
+  .banner_content {
+    padding: 140px 0;
+  }
+  .banner_content h4 {
+    font-size: 60px;
+  }
+  .banner_content p {
+    font-size: 11px;
+  }
+  .banner_content a {
+    font-size: 15px;
+    padding: 15px 29px;
+  }
+
+  /* banner part css end */
+
+  /* description part css start */
+
+  .desc_content {
+    padding: 65px 0 90px;
+  }
+  .desc_content h4 {
+    font-size: 30px;
+  }
+  .desc_content p {
+    font-size: 15px;
+  }
+
+  /* description part css end */
+
+  /* feature part css start */
+
+  .feature {
+    padding: 55px 0 45px;
+  }
+  .feat_content img {
+    padding-top: 20px;
+  }
+
+  /* feature part css end */
+
+  /* common heading part css start */
+
+  .common_heading h4 {
+    font-size: 35px;
+  }
+  .common_heading p {
+    padding-bottom: 45px;
+  }
+
+  /* common heading part css end */
+
+  /* footer part css start */
+
+  .footer_content textarea {
+    margin-bottom: 10px;
+  }
+  .footer_box {
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+  .footer_btn {
+    text-align: center;
+  }
+
+  /* footer part css end */
+
+  /* copy part css start */
+
+  .copy_text {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .copy_icon {
+    text-align: center;
+  }
+  
+  /* copy part css end */
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+  /* navbar part css start */
+
+  .navbar-nav {
+    text-align: right;
+  }
+  
+  /* navbar part css end */
+  
+  /* banner part css start */
+  
+  .banner_content p {
+    font-size: 18px;
+    margin-bottom: 4rem;
+  }
+  
+  /* banner part css end */
+  
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  /* navbar part css start */
+  
+  .navbar-nav {
+    text-align: right;
+  }
+
+  /* navbar part css end */
+
+  /* feature part css start */
+
+  .feat_content h4 {
+    font-size: 19px;
+  }
+
+  /* feature part css end */
+
+  /* footer part css start */
+
+  .footer_box span {
+    font-size: 16px;
+  }
+
+  /* footer part css end */
+
+}
